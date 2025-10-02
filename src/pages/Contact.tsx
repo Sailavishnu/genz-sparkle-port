@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, Instagram, Phone } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -148,34 +148,12 @@ const Contact = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-primary/10 rounded-lg">
-                    <MapPin className="h-6 w-6 text-primary" />
+                    <Instagram className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Location</h3>
-                    <p className="text-muted-foreground">
-                      San Francisco, CA
-                      <br />
-                      United States
-                    </p>
+                    <h3 className="font-semibold mb-1">Instagram</h3>
+                    <p className="text-muted-foreground">@genzdevs</p>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-card rounded-3xl p-8 border border-border">
-              <h3 className="text-xl font-bold mb-4">Office Hours</h3>
-              <div className="space-y-2 text-muted-foreground">
-                <div className="flex justify-between">
-                  <span>Monday - Friday</span>
-                  <span className="font-medium">9:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Saturday</span>
-                  <span className="font-medium">10:00 AM - 4:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sunday</span>
-                  <span className="font-medium">Closed</span>
                 </div>
               </div>
             </div>
